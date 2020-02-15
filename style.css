@@ -1,0 +1,40 @@
+.container-div {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 11% 89%;
+}
+.header-div{
+  background:#94949c;
+  display: grid;
+  grid-template-columns: 90%;
+  padding: 0.5em;
+  visibility: hidden;
+  position: fixed;
+  height: 100vh;
+  width: 10%;
+  border: solid black 2px;
+  padding-top: 20px;
+}
+@media (min-width: 200px){
+    .header-div{
+      visibility: visible;
+    }
+  }
+.nav-link{
+  display: block;
+  padding: 0.5em;
+  color: black;
+  margin-top: 10px;
+}
+.main-div{
+  background: #dadbeb;
+  padding: 0.5em 1em 1em 1em;
+  grid-column: 2 / 3;
+  border: solid black 2px;
+}
+section {
+  margin: 20px 15px;
+}
+header {
+  font-weight: 600;
+}
