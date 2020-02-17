@@ -1,3 +1,10 @@
+section {
+  margin: 20px 15px;
+}
+header {
+  font-weight: 600;
+}
+
 .container-div {
   width: 100%;
   display: grid;
@@ -7,7 +14,7 @@
   background:#94949c;
   display: grid;
   grid-template-columns: 90%;
-  padding: 0.5em;
+  padding: 0.1em;
   visibility: hidden;
   position: fixed;
   height: 100vh;
@@ -15,26 +22,29 @@
   border: solid black 2px;
   padding-top: 20px;
 }
-@media (min-width: 200px){
-    .header-div{
-      visibility: visible;
-    }
-  }
+
 .nav-link{
   display: block;
-  padding: 0.5em;
+  padding: 1em;
   color: black;
   margin-top: 10px;
+  font-size: 1.5vw;
 }
 .main-div{
   background: #dadbeb;
   padding: 0.5em 1em 1em 1em;
   grid-column: 2 / 3;
   border: solid black 2px;
+  font-size: 2vw;
 }
-section {
-  margin: 20px 15px;
+
+#navbar {
+  padding: 0.1em;
+  font-size: 1.3vw;
 }
-header {
-  font-weight: 600;
+
+@media (min-width: 200px){
+    .header-div{
+      visibility: visible;
+    }
 }
