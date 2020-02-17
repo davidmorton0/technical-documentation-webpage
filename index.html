@@ -1,66 +1,73 @@
-<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<!DOCTYPE html>
+<html>
+<head>
 <link rel="stylesheet" type="text/css" href="style.css">
-
-<div class="container-div">
-  <div class="header-div">
-    <nav id="navbar">
-      <header>Ruby Operator Documentation</header>
-      <a class="nav-link" href="#ruby_operators">Ruby Operators</a>
-      <a class="nav-link" href="#arithmetic_operators">Arithmetic Operators</a>
-      <a class="nav-link" href="#comparison_operators">Comparison Operators</a>
-      <a class="nav-link" href="#assignment_operators">Assignment Operators</a>
-      <a class="nav-link" href="#bitwise_operators">Bitwise Operators</a>
-      <a class="nav-link" href="#logical_operators">Logical Operators</a>
-    </nav>
+  <title>Technical Documentation Webpage</title>
+</head>
+<body>
+  <div class="container-div">
+    <div class="header-div">
+      <nav id="navbar">
+        <header>Ruby Operator Documentation</header>
+        <a class="nav-link" href="#ruby_operators">Ruby Operators</a>
+        <a class="nav-link" href="#arithmetic_operators">Arithmetic Operators</a>
+        <a class="nav-link" href="#comparison_operators">Comparison Operators</a>
+        <a class="nav-link" href="#assignment_operators">Assignment Operators</a>
+        <a class="nav-link" href="#bitwise_operators">Bitwise Operators</a>
+        <a class="nav-link" href="#logical_operators">Logical Operators</a>
+      </nav>
+    </div>
+    <div class="main-div">
+     <main id="main-doc">
+      <section class="main-section" id="ruby_operators">
+        <header>Ruby Operators</header>
+        <p>Ruby has different operators which are used to do things to values.</p>
+        <ul>
+          <li>Arithmetic Operators</li>
+          <li>Comparison Operators</li>
+          <li>Assignment Operators</li>
+          <li>Bitwise Operators</li>
+          <li>Logical Operators</li>
+         </ul>
+       </section>
+       <section class="main-section" id="arithmetic_operators">
+        <header>Arithmetic Operators</header>
+        <p>The Arithmetic Operators are +, -, *, /, % and **</p>
+        <code>Example:  4 + 5 gives 9</code>
+        <p>The Arithmetic Operators add, subtract, multiply and divide numbers
+          as mathematical operations.</p>
+        <p>% returns the remainder from a division.  ** gives the power of a number to a second number.</p>
+       </section>
+       <section class="main-section" id="comparison_operators">
+        <header>Comparison Operators</header>
+        <p>The Comparison Operators are ==, !=, >, <, >=, <=, <=>, ===, eql? and equal?</p>
+        <code>Example:  4 > 5 gives false</code>
+        <p>Comparison Operators are for comparing numbers and other objects.</p>
+       </section>
+       <section class="main-section" id="assignment_operators">
+          <header>Assignment Operators</header>
+          <p>The Assignment Operators are = +=, -=, *=, /=, %= and **=</p>
+          <code>Example:  a += 5 will add 5 to the value stored in a.</code>
+          <p>Assignment Operators are for storing values in variables, often with an operation using the stored value first.</p>
+        </section>
+        <br>
+        <section class="main-section" id="bitwise_operators">
+          <header>Bitwise Operators</header>
+          <p>The Bitwise Operators are &, |, *, ~ << and >></p>
+          <code>Example:  5 | 11 gives 15 which is the same as 0101 | 1011 giving 1111.</code>
+          <p>The Bitwise operators are used for bit by bit operations.</p>
+        </section>
+        <br>
+        <section class="main-section" id="logical_operators">
+          <header>Logical Operators</header>
+          <p>The Logical Operators are 'and', 'or', &&, ||, ! and 'not'.</p>
+          <code>Example:  true || false gives true.</code>
+          <p>The Logical Operators are used for combining true/false expressions.</p>
+        </section>
+      </main>
+    </div>
   </div>
-  <div class="main-div">
-   <main id="main-doc">
-    <section class="main-section" id="ruby_operators">
-      <header>Ruby Operators</header>
-      <p>Ruby has different operators which are used to do things to values.</p>
-      <ul>
-        <li>Arithmetic Operators</li>
-        <li>Comparison Operators</li>
-        <li>Assignment Operators</li>
-        <li>Bitwise Operators</li>
-        <li>Logical Operators</li>
-       </ul>
-     </section>
-     <section class="main-section" id="arithmetic_operators">
-      <header>Arithmetic Operators</header>
-      <p>The Arithmetic Operators are +, -, *, /, % and **</p>
-      <code>Example:  4 + 5 gives 9</code>
-      <p>The Arithmetic Operators add, subtract, multiply and divide numbers
-        as mathematical operations.</p>
-      <p>% returns the remainder from a division.  ** gives the power of a number to a second number.</p>
-     </section>
-     <section class="main-section" id="comparison_operators">
-      <header>Comparison Operators</header>
-      <p>The Comparison Operators are ==, !=, >, <, >=, <=, <=>, ===, eql? and equal?</p>
-      <code>Example:  4 > 5 gives false</code>
-      <p>Comparison Operators are for comparing numbers and other objects.</p>
-     </section>
-     <section class="main-section" id="assignment_operators">
-        <header>Assignment Operators</header>
-        <p>The Assignment Operators are = +=, -=, *=, /=, %= and **=</p>
-        <code>Example:  a += 5 will add 5 to the value stored in a.</code>
-        <p>Assignment Operators are for storing values in variables, often with an operation using the stored value first.</p>
-      </section>
-      <br>
-      <section class="main-section" id="bitwise_operators">
-        <header>Bitwise Operators</header>
-        <p>The Bitwise Operators are &, |, *, ~ << and >></p>
-        <code>Example:  5 | 11 gives 15 which is the same as 0101 | 1011 giving 1111.</code>
-        <p>The Bitwise operators are used for bit by bit operations.</p>
-      </section>
-      <br>
-      <section class="main-section" id="logical_operators">
-        <header>Logical Operators</header>
-        <p>The Logical Operators are 'and', 'or', &&, ||, ! and 'not'.</p>
-        <code>Example:  true || false gives true.</code>
-        <p>The Logical Operators are used for combining true/false expressions.</p>
-      </section>
-    </main>
-  </div>
-</div>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
